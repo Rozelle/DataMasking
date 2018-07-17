@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" output="test-classes" path="test"/>
+	<classpathentry kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/User/Desktop/JARS/gwt-dev.jar"/>
+	<classpathentry kind="lib" path="C:/Users/User/Desktop/JARS/gwt-servlet.jar"/>
+	<classpathentry kind="lib" path="C:/Users/User/Desktop/JARS/gwt-user.jar"/>
+	<classpathentry kind="lib" path="C:/Users/User/Desktop/JARS/mysql-connector-java-5.1.38-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/User/Desktop/JARS/sqlite-jdbc-3.14.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/User/Desktop/JARS/validation-api-1.0.0.GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/User/Desktop/JARS/validation-api-1.0.0.GA-sources.jar"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>

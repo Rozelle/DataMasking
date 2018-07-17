@@ -1,0 +1,6 @@
+# Module masquerade
+# RPC service class, partial path of RPC policy file
+com.datamask.masquerade.client.ConfigurationService, 2736E14A350D04DDA141A6BC94AF5A80.gwt.rpc
+com.datamask.masquerade.client.MaskService, 88DE4245982708E01874D996ECF3C6AF.gwt.rpc
+com.datamask.masquerade.client.LoginService, 4BCD01CE5F8D14888999764C8430373D.gwt.rpc
+com.datamask.masquerade.client.SettingService, 8FB02BED08BDC4EBAFC853F7A3397EA1.gwt.rpc

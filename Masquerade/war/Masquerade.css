@@ -1,0 +1,275 @@
+/** Add css rules here for your application. */
+.body{
+	background: ##fff;
+	}
+
+div#container 
+	{
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+h1{
+	color:#1ca5e0;
+	font-size:40px;
+	font-weight: bold;
+    margin: 75px 0px 20px;
+	text-align: center;
+  }
+
+.gwt-Label.loginMessage 
+{
+    font-size: 16px;
+    font-family: Arial;
+    color: #666666;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    
+}
+
+.gwt-Label.invalidCredMessage
+{
+    font-size: 14px;
+    font-family: Arial;
+    color: #E76666;
+    width: 100%;
+    height: 30px;
+    margin-top: 30px;
+}
+
+.gwt-TextBox.loginBox
+{
+	margin: 30px 0px 15px 0px;
+    padding: 5px 4px;
+    border: 1px solid #ccc;
+    border-top: 1px solid #999;
+    font-size: 17px;
+    height: 25px;
+    width: 280px;
+}
+    
+
+.gwt-PasswordTextBox.passwordBox
+{
+	margin: 10px 0px 15px 0px;
+	padding: 5px 4px;
+	border: 1px solid #ccc;
+	border-top: 1px solid #999;
+	font-size: 17px;
+	height: 25px;
+	width: 280px;;
+}
+
+.gwt-TextBox.loginBox:focus 
+{ 
+    outline: none;
+    border-color: #63b1fd;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+.gwt-PasswordTextBox.passwordBox:focus
+{ 
+    outline: none;
+    border-color: #63b1fd;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+.gwt-Button.loginButton 
+  {
+    margin: 40px 0px 15px 0px;
+    background: rgb(102,204,102);
+    border-radius: 0px;
+    height: 30px;
+    width: 200px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-family: Arial Unicode MS, Arial, sans-serif;
+}
+
+.gwt-Button.loginButton:active 
+{
+    background-color: rgb(120, 232, 120);
+}
+
+.gwt-Button.loginButton:hover 
+{
+    background-color: rgb(120, 232, 120);
+}
+
+.gwt-Button.loginButton:focus 
+{
+    outline: none;
+    background-color: rgb(120, 232, 120);
+}
+
+
+.menuPanel
+{  
+	margin-top: 10px;
+	width: 90%;
+}
+
+.configLable,.maskingLable,.settingLable
+{
+	font-size: 16px;
+	padding: 2px 0px 0px 4px;
+	color: #1a1a1a;
+	text-decoration: underline;
+	font-weight: normal;
+}
+
+.configLable2,.maskingLable2,.settingLable2
+{
+	font-size: 16px;
+	padding: 2px 0px 0px 4px;
+	color: #1a1a1a;
+	text-decoration:none;
+	font-weight:bold;
+}
+.bluePanel
+{
+	margin-top: 15px;
+	background-color:#1e90ff;
+	height: 26px;
+	width: 100%;
+}
+
+.dashboardMessage
+{
+	color:#ffffff;
+	font-size: 16px;
+	font-weight: bold;
+	padding-left: 6%;
+	margin-top: 4px;
+	
+}
+
+.dashboardTimer
+{
+	color:#ffffff;
+	font-size: 16px;
+	font-weight: bold;
+	padding-left: 64%;
+	margin-top: 4px;
+}
+.gwt-Button.addSchemaButton
+{
+	font-size: 14px;
+	font-weight: bold;
+	height:24px;
+	width:120px;
+    border:0px;
+	margin: 10px 0px 5px 4px;
+	background: #bfbfbf;
+    color: white;
+    
+}
+
+.schemaListHeader td
+{
+  background-color: #1e90ff;
+  color: white;
+  font-style: italic;  
+  font-size: 14px;
+  font-weight: bold;
+  }
+  
+.ListOfSchemas 
+{
+  border: 1px solid silver;
+  padding: 2px;
+  margin-bottom:6px;
+}  
+
+.conNameLabel,.hostLabel,.mysqlloginLabel
+{
+	padding:0px 0px 0px 10px;
+	font-weight: bold;
+	width: 45px;
+}
+
+.portLabel,.mysqlpassLabel
+{
+    padding:0px 0px 0px 10px;
+	font-weight: bold;
+	width: 75px;
+}
+
+.connectionNamePanel, .hostportPanel, .mysqlloginPanel, .TestResultPanel
+{
+	padding: 5px 5px 5px 5px;
+}
+
+.conNameBox, .hostBox, .portBox, .mysqlpassBox, .mysqlloginBox
+{
+	border: 1px solid rgb(51,153,204);
+    width: 150px;       
+}
+
+.closeConButton,.testConButton
+{
+   font-size: 14px;
+   font-weight: bold;
+   height:24px;
+   width:120px;
+   border:10px;   
+   margin-bottom: 5px 5px 5px 5px; 
+}
+
+.saveConButton
+{
+   font-size: 14px;
+   font-weight: bold;
+   height:24px;
+   width:120px;
+   border:0px;   
+   margin-bottom: 5px 5px 5px 5px; 
+   background: rgb(102,204,102);
+   color: white;           
+}
+
+
+.TestResultLable{
+	color: red;
+}
+
+
+
+/***********  seeting css  *********/
+
+
+
+.stackPanelLabel {
+	margin-right: 5px;
+	display: block;
+}
+
+.stackPanelTextBox {
+	margin-left: 5px;
+	display: block;
+}
+
+.stackPanelLogin {
+	float: center;
+	}
+.stackPasswordText{
+	input[type='password'][name='password'] {
+    background: crimson;
+    color: pink;
+    border: 3px solid pink;
+}
+.adminLabelLayout{
+	margin-top: 50px;
+
+}
+
+.SettingVPLabel
+{
+	margin-top: 50px;
+	padding-top: 50px;
+	color: red;
+}
+
+

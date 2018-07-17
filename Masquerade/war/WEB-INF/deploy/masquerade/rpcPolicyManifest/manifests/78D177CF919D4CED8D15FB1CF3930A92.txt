@@ -1,0 +1,2 @@
+serviceClass: com.datamask.masquerade.client.MaskService
+path: 88DE4245982708E01874D996ECF3C6AF.gwt.rpc

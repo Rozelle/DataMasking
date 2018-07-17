@@ -1,0 +1,2 @@
+serviceClass: com.datamask.masquerade.client.LoginService
+path: 4BCD01CE5F8D14888999764C8430373D.gwt.rpc

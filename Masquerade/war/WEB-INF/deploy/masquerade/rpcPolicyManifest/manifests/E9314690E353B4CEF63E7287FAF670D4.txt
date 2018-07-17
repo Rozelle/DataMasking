@@ -1,0 +1,2 @@
+serviceClass: com.datamask.masquerade.client.SettingService
+path: 8FB02BED08BDC4EBAFC853F7A3397EA1.gwt.rpc
